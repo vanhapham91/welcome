@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family: 'Sriracha', cursive;
+}
+
+#background {
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/background3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0;
+    z-index: -100;
+    position: absolute;
+    filter: blur(2px);
+}
+
+#mask {
+    background-color: rgba(18,5,35,0.76);
+    z-index: -99;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.maincontent {
+    display: flex;
+    position: relative;
+}
+
+
+
+.title {
+    font-size: 50px;
+    font-family: 'Chewy', cursive;
+    text-shadow: gray 1px 1px 1px;
+}
+
+.sub-title {
+    font-size: 30px;
+    padding-bottom:30px;
+}
+
+.introduction {
+    font-size: 20px;
+
+}
+
+.general-info {
+    width: 50%;
+    height: 100vh;
+}
+
+.bookself {
+    height: 100vh;
+}
+
+.row {
+    margin: 40px 0px;
+}
+.container {
+    flex: 1;
+    padding: 15% 100px 0;
+
+}
+
+.bookshelf {
+    background-color: #F6F8F7;
+    padding: 8% 100px 0;
+}
+
+.shelf {
+    text-align: center;
+}
+
+.book {
+    display: inline-block;
+    padding: 10px 30px 0px 30px;
+}
+
+.book > a > img {
+    height: 150px;
+    width: 100px;
+
+}
+
+.thumb1 {
+    background-image: url("assets/log3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 100px;
+}
+
+.content {
+    z-index: 100;
+    color: white;
+    padding: 24% 100px 0;
+}
