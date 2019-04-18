@@ -62,8 +62,11 @@ padding: 10% 0 0 10%;
 
 }
 
-.book > a > img {
+.book > div {
     height: 150px;
     width: 100px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
 }
 
