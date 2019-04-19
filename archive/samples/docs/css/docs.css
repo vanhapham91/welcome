@@ -63,12 +63,10 @@ body{
 	background-image:linear-gradient(left, #fff 95%, #dadada 100%);
 }
 
-.sample-docs .p29{
-	background-position:-942px 0;
-}
-
-.sample-docs .p30{
-	background-position:-1413px 0;
+.sample-docs .double{
+    width: 1000px;
+    height: 700px;
+	background-size:100% 100%;
 }
 
 .sample-docs .even .gradient{
@@ -175,3 +173,35 @@ body{
 	-webkit-border-image: url(../pics/tab-hover.png) 5 20 5 20 repeat stretch;
 
 }
+
+.doc-list {
+    font-family: Arial;
+    margin: 40px 0 0 20px;
+}
+
+.page > ul {
+    margin: 60px 20px;
+    list-style: none;
+}
+
+.page > ul > li {
+    padding: 20px 10px 10px 20px;
+    border-radius:  10px;
+    margin: 10px 20px 0 10px;
+    color: white;
+}
+
+.page > ul > li > p {
+    margin: 0;
+}
+
+.page > ul > li > .download {
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.fas {
+    padding-right: 10px;
+}
+

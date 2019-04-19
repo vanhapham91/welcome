@@ -18,7 +18,7 @@ function addPage(page, book) {
 
 	var id, pages = book.turn('pages');
 
-	var element = $('<div />', {});
+	var element = $('<div/>', {});
 
 	if (book.turn('addPage', element, page)) {
 		if (page<28) {
@@ -30,7 +30,7 @@ function addPage(page, book) {
 
 function updateTabs() {
 	
-	var tabs = {7: 'Clases', 12:'Constructor', 14:'Properties', 16:'Methods', 23:'Events'},
+	var tabs = {2: 'Làm quen', 5:'Gia nhập', 6:'Hỗ trợ', 7:'Văn hóa'},
 		left = [],
 		right = [],
 		book = $('.sample-docs'),
@@ -75,40 +75,7 @@ function moveBar(yes) {
 	}
 }
 
-function setPreview(view) {
+$('#id').click(function() {
+    console.log('wtf');
+})
 
-	var previewWidth = 115,
-		previewHeight = 73,
-		previewSrc = 'pics/preview.jpg',
-		preview = $(_thumbPreview.children(':first')),
-		numPages = (view==1 || view==$('#slider').slider('option', 'max')) ? 1 : 2,
-		width = (numPages==1) ? previewWidth/2 : previewWidth;
-
-	_thumbPreview.
-		addClass('no-transition').
-		css({width: width + 15,
-			height: previewHeight + 15,
-			top: -previewHeight - 30,
-			left: ($($('#slider').children(':first')).width() - width - 15)/2
-		});
-
-	preview.css({
-		width: width,
-		height: previewHeight
-	});
-
-	if (preview.css('background-image')==='' ||
-		preview.css('background-image')=='none') {
-
-		preview.css({backgroundImage: 'url(' + previewSrc + ')'});
-
-		setTimeout(function(){
-			_thumbPreview.removeClass('no-transition');
-		}, 0);
-
-	}
-
-	preview.css({backgroundPosition:
-		'0px -'+((view-1)*previewHeight)+'px'
-	});
-}

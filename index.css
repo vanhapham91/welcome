@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Sriracha', cursive;
+    font-family: 'Muli', cursive;
 }
 
 #background {
@@ -48,7 +48,7 @@ padding: 10% 0 0 10%;
 
 .title {
     font-size: 50px;
-    font-family: 'Chewy', cursive;
+    /*font-family: 'Roboto Condensed', cursive;*/
     text-shadow: gray 1px 1px 1px;
 }
 
