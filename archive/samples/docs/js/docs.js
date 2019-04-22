@@ -30,7 +30,7 @@ function addPage(page, book) {
 
 function updateTabs() {
 	
-	var tabs = {2: 'Làm quen', 5:'Gia nhập', 6:'Hỗ trợ', 7:'Văn hóa'},
+	var tabs = {2: 'Làm quen', 6:'Gia nhập', 8:'Hỗ trợ', 12:'Văn hóa'},
 		left = [],
 		right = [],
 		book = $('.sample-docs'),

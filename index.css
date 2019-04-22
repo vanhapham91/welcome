@@ -68,5 +68,10 @@ padding: 10% 0 0 10%;
     background-color: white;
     text-align: center;
     vertical-align: middle;
+    background-size: cover;
+}
+
+.book-cover {
+    box-shadow: black 1px 5px 11px;
 }
 

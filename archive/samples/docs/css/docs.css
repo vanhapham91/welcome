@@ -124,7 +124,7 @@ body{
 .sample-docs .tabs{
 	width:942px;
 	height:22px;
-	top:-22px;
+    top: -40px;
 	position:relative;
 	z-index:1;
 }
@@ -174,34 +174,40 @@ body{
 
 }
 
-.doc-list {
-    font-family: Arial;
-    margin: 40px 0 0 20px;
-}
-
-.page > ul {
-    margin: 60px 20px;
+ul {
     list-style: none;
 }
 
-.page > ul > li {
-    padding: 20px 10px 10px 20px;
-    border-radius:  10px;
-    margin: 10px 20px 0 10px;
+a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 15px 0;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.container {
+    margin: 0px;
+    padding: 30px 50px 0 50px;
+}
+
+.doc-container {
+    margin: 0;
+    width: 38%;
+    padding:  10px 20px;
+    border: 1px solid white;
+    background-color: rgba(239,245,239,0.2);
+    box-shadow: black -3px 4px 7px;
+
+}
+
+.policy-container {
+    width: 40%;
+    padding: 20px;
+    border: 3px double rebeccapurple;
+    background-color: #7A65A8;
     color: white;
 }
-
-.page > ul > li > p {
-    margin: 0;
-}
-
-.page > ul > li > .download {
-    display: inline-block;
-    font-size: 12px;
-    margin-top: 10px;
-}
-
-.fas {
-    padding-right: 10px;
-}
-
