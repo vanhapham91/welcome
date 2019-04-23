@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Muli', cursive;
+}
+
+#background {
+    height: 100%;
+    width: 100%;
+    background-image: url("assets/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    z-index: -100;
+    position: absolute;
+    filter: blur(2px);
+}
+
+.main-content {
+    display: flex;
+    color: white;
+}
+
+#nav-bar {
+    /*padding-left: 380px;*/
+    font-size: 20px;
+    margin: 40px;
+}
+
+#introduction {
+    width: 50%;
+
+}
+
+.intro-content {
+    padding: 25% 14% 0 10%;
+}
+
+.right-content {
+    text-align: right;
+    color: black;
+}
+
+.inline-block {
+    display: inline-block;
+    margin: 0px 10px;
+    paddng-bottom: 5px;
+}
+
+.menu {
+    color: #1350A3;
+}
+
+#bookshelf {
+    padding: 36% 8%;
+}
+
+.row {
+    display: flex;
+    background-image: url("/assets/log.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    justify-content: space-around;
+}
+
+.search-input {
+    border: none;
+    border-bottom: solid 1px gray;
+    outline: none;
+}
+
+.search-btn {
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    color: #1350A3;
+}
+
+.inline-block > i {
+    display: block;
+    margin: 5px 0px;
+}
+
+.menu > .inline-block:hover {
+    border-bottom: solid 2px #1350A3;
+}
+
+.book {
+    display: inline-block;
+    padding: 10px 30px 16px 30px;
+}
+
+.title {
+    font-size: 50px;
+    text-shadow: gray 1px 1px 1px;
+}
+
+.sub-title {
+    font-size: 30px;
+    padding-bottom:30px;
+}
+
+.text {
+    font-size: 20px;
+
+}
+
+.book > div {
+    height: 150px;
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    background-size: cover;
+}
+
+.book-cover {
+    box-shadow: black 1px 5px 11px;
+}
+
+
+/*@media only screen and (max-width: 1762px) {*/
+/*#nav-bar {*/
+/*padding-left: 250px;*/
+/*}*/
+/*}*/
