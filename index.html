@@ -9,80 +9,63 @@
 </head>
 <body>
     <div class="background"></div>
-    <div class="container">
+    <div class="menu">
+        <div class="icon-group">
+            <div class="contact-btn">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/groups/281744299271479/"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div class="contact-btn">
+                <a target="_blank" rel="noopener noreferrer" href="#"><i class="fab fa-google"></i></a>
+            </div>
+            <div class="contact-btn">
+                <a target="_blank" rel="noopener noreferrer" href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="contact-btn">
+                <a target="_blank" rel="noopener noreferrer" href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="search">
+            <form action="/action_page.php">
+                <input class="search-input" type="text" name="search">
+                <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+    <main>
         <div class="left-container">
             <div class="content">
                 <p class="title">eEdu</p>
                 <p class="sub-title">Trung tâm Giải pháp Giáo dục điện tử</p>
                 <p class="text">
-                    Giải pháp xây dựng trên nền tảng web công nghệ điện toán đám mây nhằm tin học hoá toàn diện công tác quản lý, điều hành trong giáo dục, kết nối gia đình, nhà trường và xã hội, góp phần nâng cao chất lượng quản lý, chất lượng dạy và học.
+                Giải pháp xây dựng trên nền tảng web công nghệ điện toán đám mây nhằm tin học hoá toàn diện công tác quản lý, điều hành trong giáo dục, kết nối gia đình, nhà trường và xã hội, góp phần nâng cao chất lượng quản lý, chất lượng dạy và học.
                 </p>
             </div>
         </div>
         <div class="right-container">
-            <div class="menu">
-                <div class="icon-group">
-                    <div class="contact-btn">
-                       <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/groups/281744299271479/"><i class="fab fa-facebook-f"></i></a>
+            <div class="bookshelf">
+                <div class="row">
+                    <div class="book">
+                        <div class="book-cover"
+                        onClick="location.href='archive/samples/docs/index.html'"
+                        style="background-image: url('archive/samples/docs/pics/covers.jpg')">
+                        </div>
                     </div>
-                    <div class="contact-btn">
-                        <a target="_blank" rel="noopener noreferrer" href="#"><i class="fab fa-google"></i></a>
+                    <div class="book">
+                        <div class="book-cover"
+                        onClick="location.href='archive/samples/docs/index.html'"
+                        style="background-image: url('assets/cover2.jpg')">
+                        </div>
                     </div>
-                    <div class="contact-btn">
-                        <a target="_blank" rel="noopener noreferrer" href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                    <div class="contact-btn">
-                        <a target="_blank" rel="noopener noreferrer" href="#"><i class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
-                <div class="search">
-                    <form action="/action_page.php">
-                        <input class="search-input" type="text" name="search">
-                        <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
-                    </form>
-                </div>
-        </div>
-        <div id="bookshelf">
-            <div class="row">
-                <div class="book">
-                    <div class="book-cover"
-                         onClick="location.href='archive/samples/docs/index.html'"
-                         style="background-image: url('archive/samples/docs/pics/covers.jpg')">
+                    <div class="book">
+                        <div class="book-cover"
+                        onClick="location.href='archive/samples/docs/index.html'"
+                        style="background-image: url('assets/cover3.jpg')">
+                        </div>
                     </div>
                 </div>
-                <div class="book">
-                    <div class="book-cover"
-                         onClick="location.href='archive/samples/docs/index.html'"
-                         style="background-image: url('assets/cover2.jpg')">
-                    </div>
-                </div>
-                <div class="book">
-                    <div class="book-cover"
-                         onClick="location.href='archive/samples/docs/index.html'"
-                         style="background-image: url('assets/cover3.jpg')">
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="book">
-                    <div class="book-cover"
-                         onClick="location.href='archive/samples/docs/index.html'"
-                         style="background-image: url('archive/samples/docs/pics/covers.jpg')">
-                    </div>
-                </div>
-                <div class="book">
-                    <div class="book-cover"
-                         onClick="location.href='archive/samples/docs/index.html'"
-                         style="background-image: url('assets/cover2.jpg')">
-                    </div>
-                </div>
-                <div class="book">
-                    <div class="book-cover"
-                         onClick="location.href='archive/samples/docs/index.html'"
-                         style="background-image: url('assets/cover3.jpg')">
-                    </div>
-                </div>
+
             </div>
         </div>
+    </main>
 </body>
 </html>

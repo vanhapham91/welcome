@@ -1,60 +1,13 @@
 body {
     margin: 0;
     font-family: 'Muli', cursive;
-    position: fixed;
-    height: 100vh;
-    width: 100%
-}
-
-.background {
-    background-image: url('assets/background2.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100vh;
-    width: 100%;
-    z-index: -100;
-    position: absolute;
-}
-
-.container {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    z-index: 100;
-}
-
-.left-container {
-    width: 50%;
-}
-
-.content {
-    width: 70%;
-    padding: 30px;
-    color: white;
-    margin-top: 30px;
-}
-
-.title {
-     font-size: 50px;
-     text-shadow: gray 1px 1px 1px;
-     margin: 30px 0;
- }
-
-.sub-title {
-    font-size: 30px;
-}
-
-.text {
-    font-size: 20px;
-}
-
-.right-container {
-    margin-right: 30px;
 }
 
 .menu {
     display: flex;
     float: right;
+    margin: 15px;
+    position: relative;
 }
 
 .icon-group {
@@ -69,7 +22,7 @@ body {
     font-size: 20px;
 }
 
-.contact-btn > a {
+.fab, .fas {
     color: #1350A3;
 }
 
@@ -78,14 +31,13 @@ body {
 }
 
 .search {
-    padding: 0px 30px;
+    padding: 0px 30px 0 10px;
 }
 
 .search-input {
     border: none;
     border-bottom: solid 1px gray;
     outline: none;
-    border-radius: 5px;
     background-color: transparent;
 }
 
@@ -96,9 +48,53 @@ body {
     color: #1350A3;
 }
 
-#bookshelf {
-    margin-top: 140px;
-    margin-right: 140px;
+.background {
+    background-image: url('assets/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    z-index: -100;
+    position: absolute;
+}
+
+main {
+    display: inline-flex;
+}
+
+.left-container {
+    width: 50%;
+}
+
+.content {
+    padding: 30px;
+    color: white;
+    margin-top: 30px;
+    width: 70%;
+}
+
+.title {
+     font-size: 50px;
+     text-shadow: gray 1px 1px 1px;
+     margin: 10px 0;
+ }
+
+.sub-title {
+    font-size: 30px;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.right-container {
+    margin-right: 30px;
+}
+
+.bookshelf {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(10%);
 }
 
 .row {
@@ -125,13 +121,10 @@ body {
 }
 
 @media only screen and (max-device-width: 1880px) {
-    #bookshelf {
-        margin-right: 70px;
-    }
 }
 
 @media only screen and (min-device-width: 1440px) and (max-device-width: 1600px) {
-    #bookshelf {
+    .bookshelf {
         margin-left: 60px;
     }
 
@@ -146,75 +139,143 @@ body {
 }
 
 @media only screen and (max-device-width: 1439px) {
-    #bookshelf {
-        margin-top: 350px;
-    }
     .book-cover {
         height: 150px;
         width: 110px;
     }
 }
 
-@media only screen and (max-device-width: 1240px) {
+@media only screen and (max-device-width: 1280px) {
+    .content {
+        margin-top: 0;
+    }
+
+    .text {
+        font-size: 18px;
+        margin-right: 20px;
+
+    }
+
     .book {
         padding: 15px 20px;
     }
 }
 
-@media only screen and (max-device-width: 1024px)  {
+@media only screen and (max-device-width: 1160px)  {
+    .sub-title {
+        font-size: 25px;
+    }
 
+    .bookshelf {
+        transform: translateY(-65%) translateX(10%);
+    }
+
+}
+
+@media only screen and (max-device-width: 1080px) {
+    .bookshelf {
+        transform: translateY(-65%) translateX(0%);
+    }
+
+    .text {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .text {
+        font-size: 15px;
+    }
+
+    .bookshelf {
+        transform: translateY(-70%) translateX(-5%);
+    }
+
+}
+
+@media only screen and (max-device-width: 980px) {
+    .content {
+        padding-top: 0px;
+    }
+
+    .title {
+        font-size: 35px;
+        margin: 5px 0;
+    }
+
+    .sub-title {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+
+    .bookshelf {
+        transform: translateY(-70%)     translateX(5%);
+    }
+
+
+    .book {
+        padding: 10px 15px 16px 15px;
+    }
+
+    .book-cover {
+        height: 150px;
+        width: 107px;
+    }
 }
 
 @media only screen and (max-device-width: 1024px) and (orientation: portrait){
     .background {
         background-size: cover;
-        width: 100vh;
-        transform: rotate(90deg) rotateX(180deg);
+        background-image: url(assets/background2.jpg);
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        z-index: -100;
+        position: fixed;
+        transform: rotate(90deg) rotateX(720deg) translateX(-30%);
     }
 
-    .search-btn {
+    .search-btn, .fas, .fab {
         color: white;
     }
 
-    .contact-btn > a {
-        color: white;
+    main {
+        display: block;
     }
 
-    .search-input {
-        color: white;
+    .menu {
+        position: fixed;
+        top: 0;
+        right: 22%;
     }
-
-    .book {
-        padding: 15px 8px;
-    }
-
-    #bookshelf {
-        margin-top: 150px;
+    
+    .left-container {
+        text-align: center;
+        margin-top: 30px;
+        width: 100%;
     }
 
     .content {
-        width: 80%;
+        width: 100vw;
+        padding: 35px 0 0 0 ;
     }
 
-    .title {
-        font-size: 40px;
-        text-shadow: gray 1px 1px 1px;
-        margin: 20px 0;
+    .content > p {
+        margin: 5px 20px;
     }
 
-    .sub-title {
-        font-size: 25px;
-        margin: 20px 0;
+    .right-container {
+        height: 100vh;
     }
 
-    .text {
-        font-size: 16px;
+    .bookshelf {
+        transform: translateX(60%) translateY(-100%);
     }
 }
 
 @media only screen and (min-device-width: 768px) and (orientation: portrait){
-    .book {
-        padding: 15px 0px;
-    }
+}
+
+@media only screen and (max-device-width: 768px) and (orientation: portrait) {
 }
 
