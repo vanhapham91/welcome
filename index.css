@@ -1,15 +1,26 @@
 body {
     margin: 0;
     font-family: 'Muli', cursive;
+    position: fixed;
+    height: 100vh;
+    width: 100%
 }
 
-.container {
+.background {
     background-image: url('assets/background2.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
     width: 100%;
+    z-index: -100;
+    position: absolute;
+}
+
+.container {
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
 }
 
 .left-container {
@@ -24,10 +35,10 @@ body {
 }
 
 .title {
-    font-size: 50px;
-    text-shadow: gray 1px 1px 1px;
-    margin: 30px 0;
-}
+     font-size: 50px;
+     text-shadow: gray 1px 1px 1px;
+     margin: 30px 0;
+ }
 
 .sub-title {
     font-size: 30px;
@@ -35,5 +46,175 @@ body {
 
 .text {
     font-size: 20px;
+}
+
+.right-container {
+    margin-right: 30px;
+}
+
+.menu {
+    display: flex;
+    float: right;
+}
+
+.icon-group {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-btn {
+    display: inline-block;
+    margin: 0px 10px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.contact-btn > a {
+    color: #1350A3;
+}
+
+.contact-btn:hover {
+    border-bottom: 2px solid #1350A3;;
+}
+
+.search {
+    padding: 0px 30px;
+}
+
+.search-input {
+    border: none;
+    border-bottom: solid 1px gray;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.search-btn {
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    color: #1350A3;
+}
+
+#bookshelf {
+    margin-top: 140px;
+    margin-right: 140px;
+}
+
+.row {
+    background-image: url("/assets/log.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    margin-bottom: 30px;
+}
+
+.book {
+    display: inline-block;
+    padding: 10px 30px 16px 30px;
+}
+
+.book-cover {
+    height: 210px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    background-size: cover;
+    box-shadow: black 1px 5px 11px;
+}
+
+@media only screen and (max-device-width: 1880px) {
+    #bookshelf {
+        margin-right: 70px;
+    }
+}
+
+@media only screen and (min-device-width: 1440px) and (max-device-width: 1600px) {
+    #bookshelf {
+        margin-left: 60px;
+    }
+
+    .book {
+        padding: 10px 20px 16px 20px;
+    }
+
+    .book-cover {
+        height: 190px;
+        width: 136px;
+    }
+}
+
+@media only screen and (max-device-width: 1439px) {
+    #bookshelf {
+        margin-top: 350px;
+    }
+    .book-cover {
+        height: 150px;
+        width: 110px;
+    }
+}
+
+@media only screen and (max-device-width: 1240px) {
+    .book {
+        padding: 15px 20px;
+    }
+}
+
+@media only screen and (max-device-width: 1024px)  {
 
 }
+
+@media only screen and (max-device-width: 1024px) and (orientation: portrait){
+    .background {
+        background-size: cover;
+        width: 100vh;
+        transform: rotate(90deg) rotateX(180deg);
+    }
+
+    .search-btn {
+        color: white;
+    }
+
+    .contact-btn > a {
+        color: white;
+    }
+
+    .search-input {
+        color: white;
+    }
+
+    .book {
+        padding: 15px 8px;
+    }
+
+    #bookshelf {
+        margin-top: 150px;
+    }
+
+    .content {
+        width: 80%;
+    }
+
+    .title {
+        font-size: 40px;
+        text-shadow: gray 1px 1px 1px;
+        margin: 20px 0;
+    }
+
+    .sub-title {
+        font-size: 25px;
+        margin: 20px 0;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (orientation: portrait){
+    .book {
+        padding: 15px 0px;
+    }
+}
+

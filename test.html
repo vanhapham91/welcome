@@ -3,41 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
-<div id="background"></div>
-<div class="main-content">
-    <div id="introduction">
-        <div class="intro-content">
-            <div class="title">eEdu</div>
-            <div class="sub-title">Trung tâm Giải pháp Giáo dục điện tử</div>
-            <div class="text">
+<div class="container">
+    <div class="left-container">
+        <div class="content">
+            <p class="title">eEdu</p>
+            <p class="sub-title">Trung tâm Giải pháp Giáo dục điện tử</p>
+            <p class="text">
                 Giải pháp xây dựng trên nền tảng web công nghệ điện toán đám mây nhằm tin học hoá toàn diện công tác quản lý, điều hành trong giáo dục, kết nối gia đình, nhà trường và xã hội, góp phần nâng cao chất lượng quản lý, chất lượng dạy và học.
-            </div>
+            </p>
         </div>
     </div>
-    <div class="right-content">
-        <div id="nav-bar">
-            <div class="menu inline-block">
-                <div class="inline-block">
-                    <i class="fab fa-facebook-f"></i>
+    <div class="right-container">
+        <div class="menu">
+            <div class="icon-group">
+                <div class="contact-btn">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/groups/281744299271479/"><i class="fab fa-facebook-f"></i></a>
                 </div>
-                <div class="inline-block">
-                    <i class="fab fa-google"></i>
+                <div class="contact-btn">
+                    <a target="_blank" rel="noopener noreferrer" href="#"><i class="fab fa-google"></i></a>
                 </div>
-                <div class="inline-block">
-                    <i class="fab fa-twitter"></i>
+                <div class="contact-btn">
+                    <a target="_blank" rel="noopener noreferrer" href="#"><i class="fab fa-twitter"></i></a>
                 </div>
-                <div class="inline-block">
-                    <i class="fas fa-envelope"></i>
+                <div class="contact-btn">
+                    <a target="_blank" rel="noopener noreferrer" href="#"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
-            <div class="search-box inline-block">
+            <div class="search">
                 <form action="/action_page.php">
-                    <input class="search-input" type="text" placeholder="Tìm kiếm..." name="search">
+                    <input class="search-input" type="text" name="search">
                     <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
                 </form>
             </div>
@@ -63,19 +59,30 @@
                     </div>
                 </div>
             </div>
-            <!--<div class="row">-->
-            <!--<div class="book">-->
-            <!--<div><a href="#">Gương mặt tiêu biểu</a></div>-->
-            <!--</div>-->
-            <!--<div class="book">-->
-            <!--<div><a href="#">Hoạt động</a></div>-->
-            <!--</div>-->
-            <!--<div class="book">-->
-            <!--<div><a href="#">Văn hóa</div>-->
-            <!--</div>-->
-            <!--</div>-->
+            <div class="row">
+                <div class="book">
+                    <div class="book-cover"
+                         onClick="location.href='archive/samples/docs/index.html'"
+                         style="background-image: url('archive/samples/docs/pics/covers.jpg')">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="book-cover"
+                         onClick="location.href='archive/samples/docs/index.html'"
+                         style="background-image: url('assets/cover2.jpg')">
+                    </div>
+                </div>
+                <div class="book">
+                    <div class="book-cover"
+                         onClick="location.href='archive/samples/docs/index.html'"
+                         style="background-image: url('assets/cover3.jpg')">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

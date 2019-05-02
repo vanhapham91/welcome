@@ -4,6 +4,7 @@ body{
 	margin:0;
 	padding:0;
 	overflow:hidden;
+	font-family: 'Muli', cursive;
 }
 
 #canvas{
@@ -183,6 +184,7 @@ a {
     text-decoration: none;
     color: white;
     margin: 15px 0;
+	font-size: 15px;
 }
 
 a:hover {
@@ -205,9 +207,9 @@ a:hover {
 }
 
 .policy-container {
-    width: 40%;
-    padding: 20px;
-    border: 3px double rebeccapurple;
-    background-color: #7A65A8;
-    color: white;
+	width: 52%;
+	padding: 20px 10px;
+	border: 3px double rebeccapurple;
+	background-color: #7A65A8;
+	color: white;
 }
