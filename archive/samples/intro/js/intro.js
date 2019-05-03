@@ -29,7 +29,7 @@ function addPage(page, book) {
 }
 
 function updateTabs() {
-	
+
 	var tabs = {2: 'Làm quen', 6:'Gia nhập', 10:'Hỗ trợ', 12:'Văn hóa'},
 		left = [],
 		right = [],
@@ -43,7 +43,7 @@ function updateTabs() {
 		if (page>actualPage && !isHere)
 			right.push('<a href="#page/' + page + '">' + tabs[page] + '</a>');
 		else if (isHere) {
-			
+
 			if (page%2===0)
 				left.push('<a href="#page/' + page + '" class="on">' + tabs[page] + '</a>');
 			else
@@ -74,7 +74,4 @@ function moveBar(yes) {
 		$('#slider .ui-slider-handle').css({zIndex: yes ? -1 : 10000});
 	}
 }
-
-$('#id').click(function() {
-})
 
