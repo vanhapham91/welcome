@@ -2,283 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9df973d-2d85-414c-8cac-432fe38cb77f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/archive/samples/intro/pages/page-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/archive/samples/welcome/pics/covers2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cover1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/covers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-kit/DK Crayon Crumble.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-kit/PPETRIAL.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-kit/dk_crayon_crumble-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-kit/dk_crayon_crumble-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-kit/dk_crayon_crumble-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-kit/generator_config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-kit/ppetrial-demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-kit/ppetrial-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-kit/ppetrial-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-kit/specimen_files/grid_12-825-55-15.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-kit/specimen_files/specimen_stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font-kit/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/css/basic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/js/basic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/pages/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/pages/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/pages/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/pages/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/pages/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/pages/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/pages/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/pages/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/pages/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/pages/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/pages/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/basic/pages/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/css/docs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/css/jquery.ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/css/jquery.ui.html4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/js/docs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pages/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pages/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pages/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pages/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pages/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pages/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pics/covers.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pics/covers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pics/left-border.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pics/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pics/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pics/right-border.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pics/tab-hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pics/tab-off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/docs/pics/tab-on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/double-page/css/double-page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/double-page/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/double-page/pages/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/double-page/pages/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/double-page/pages/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/double-page/pages/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/double-page/pages/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/double-page/pages/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/double-page/pages/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/css/jquery.ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/css/jquery.ui.html4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/css/magazine.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/js/magazine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/1-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/1-regions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/1-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/10-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/10-regions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/10-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/11-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/11-regions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/11-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/12-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/12-regions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/12-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/2-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/2-regions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/2-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/3-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/3-regions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/3-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/4-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/4-regions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/4-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/5-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/5-regions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/5-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/6-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/6-regions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/6-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/7-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/7-regions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/7-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/8-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/8-regions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/8-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/9-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/9-regions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/9-thumb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pages/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pics/arrows.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pics/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pics/zoom-icons-editable.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pics/zoom-icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/pics/zoom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/magazine/slider.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/css/jquery.ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/css/jquery.ui.html4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/css/steve-jobs-html4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/css/steve-jobs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/fonts/Stempel-Garamond-W01-Roman.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/js/steve-jobs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page10.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page100.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page101.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page102.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page103.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page104.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page105.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page106.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page107.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page108.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page109.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page11.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page110.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page12.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page13.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page14.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page15.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page17.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page18.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page19.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page20.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page21.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page22.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page23.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page24.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page25.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page26.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page27.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page28.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page29.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page30.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page31.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page32.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page33.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page34.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page35.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page36.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page37.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page38.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page39.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page40.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page41.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page42.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page43.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page44.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page45.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page46.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page47.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page48.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page49.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page50.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page51.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page52.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page53.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page54.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page55.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page56.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page57.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page58.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page59.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page60.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page61.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page62.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page63.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page64.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page65.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page66.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page67.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page68.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page69.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page70.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page71.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page72.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page73.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page74.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page75.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page76.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page77.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page78.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page79.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page80.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page81.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page82.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page83.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page84.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page85.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page86.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page87.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page88.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page89.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page90.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page91.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page92.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page93.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page94.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page95.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page96.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page97.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page98.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/page99.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pages/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/33.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/34.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/35.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/36.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/38.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/39.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/40.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/42.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/43.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/44.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/45.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/46.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/47.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/48.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/book-covers.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/book-covers.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/books.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/collegue.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/gradient-page-left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/gradient-page-right.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/highschool.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/highschool2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/pages-depth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/spine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/thumb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/archive/samples/steve-jobs/pics/young.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/samples/intro/css/intro.css" beforeDir="false" afterPath="$PROJECT_DIR$/archive/samples/intro/css/intro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/samples/intro/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive/samples/intro/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/samples/intro/pages/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/samples/intro/pages/2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/samples/intro/pages/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/samples/intro/pages/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/samples/intro/pages/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/samples/intro/pages/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/samples/intro/pages/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/samples/intro/pics/covers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/archive/samples/intro/pics/covers.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/samples/welcome/css/welcome.css" beforeDir="false" afterPath="$PROJECT_DIR$/archive/samples/welcome/css/welcome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/samples/welcome/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/archive/samples/welcome/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive/samples/welcome/js/welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/archive/samples/welcome/js/welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cover2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cover2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/cover3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cover3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -287,31 +43,46 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-381485843">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="6" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="40" />
+          <entry key="css" value="53" />
           <entry key="gif" value="1" />
-          <entry key="html" value="62" />
-          <entry key="jpg" value="24" />
-          <entry key="js" value="39" />
+          <entry key="html" value="72" />
+          <entry key="jpg" value="25" />
+          <entry key="js" value="43" />
           <entry key="json" value="4" />
           <entry key="png" value="17" />
           <entry key="rnc" value="1" />
@@ -319,52 +90,67 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="40" />
-          <entry key="HTML" value="62" />
-          <entry key="Image" value="42" />
+          <entry key="CSS" value="53" />
+          <entry key="HTML" value="72" />
+          <entry key="Image" value="43" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="39" />
+          <entry key="JavaScript" value="43" />
           <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="6555" />
-          <entry key="html" value="6117" />
-          <entry key="js" value="540" />
+          <entry key="css" value="7514" />
+          <entry key="html" value="6536" />
+          <entry key="js" value="541" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="6556" />
-          <entry key="HTML" value="6117" />
-          <entry key="JavaScript" value="539" />
+          <entry key="CSS" value="7515" />
+          <entry key="HTML" value="6536" />
+          <entry key="JavaScript" value="540" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/archive/samples/intro/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+            <state relative-caret-position="547">
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archive/samples/intro/js/intro.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/archive/samples/intro/css/intro.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/font-kit/stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/archive/samples/welcome/css/welcome.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -382,18 +168,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>p29</find>
-      <find>hard</find>
-      <find>p30</find>
-      <find>setPre</find>
-      <find>30</find>
-      <find>.even</find>
-      <find>even</find>
-      <find>gradient</find>
-      <find>odd</find>
-      <find>p28</find>
-      <find>sri</find>
-      <find>doc-list</find>
       <find>sear</find>
       <find>book</find>
       <find>color: yellow;</find>
@@ -412,6 +186,18 @@
       <find>css</find>
       <find>docs</find>
       <find>updateTabs</find>
+      <find>covẻ</find>
+      <find>VNPT VAS</find>
+      <find>cover</find>
+      <find>&amp;</find>
+      <find>VAS Handbook</find>
+      <find>covr</find>
+      <find>background-position:-1413px 0;</find>
+      <find>p30</find>
+      <find>even</find>
+      <find>.even</find>
+      <find>p2</find>
+      <find>italic</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -421,6 +207,8 @@
       <replace>&lt;i class=&quot;fas fa-file-alt&quot;&gt;&lt;/i&gt;</replace>
       <replace>&amp;nbsp; &lt;i</replace>
       <replace>.bookshelf</replace>
+      <replace>eEdu</replace>
+      <replace>Trang chào mừng của eEdu</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -447,16 +235,20 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/test.css" />
         <option value="$PROJECT_DIR$/test.html" />
-        <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/archive/samples/docs/index.html" />
         <option value="$PROJECT_DIR$/archive/samples/docs/css/docs.css" />
         <option value="$PROJECT_DIR$/archive/samples/docs/js/docs.js" />
         <option value="$PROJECT_DIR$/archive/samples/intro/js/docs.js" />
-        <option value="$PROJECT_DIR$/archive/samples/welcome/index.html" />
+        <option value="$PROJECT_DIR$/archive/samples/intro/js/intro.js" />
+        <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/archive/samples/welcome/js/welcome.js" />
-        <option value="$PROJECT_DIR$/archive/samples/intro/js/intro.js" />
+        <option value="$PROJECT_DIR$/archive/samples/welcome/index.html" />
         <option value="$PROJECT_DIR$/archive/samples/intro/index.html" />
+        <option value="$PROJECT_DIR$/archive/samples/welcome/css/welcome.css" />
+        <option value="$USER_HOME$/Downloads/Mr_Chalk/110/style.css" />
+        <option value="$PROJECT_DIR$/assets/font-kit/stylesheet.css" />
+        <option value="$PROJECT_DIR$/archive/samples/intro/css/intro.css" />
       </list>
     </option>
   </component>
@@ -475,8 +267,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-6" />
     <option name="width" value="1040" />
     <option name="height" value="744" />
   </component>
@@ -519,6 +310,14 @@
               <item name="welcomepage" type="462c0819:PsiDirectoryNode" />
               <item name="archive" type="462c0819:PsiDirectoryNode" />
               <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="intro" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welcomepage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welcomepage" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
               <item name="welcome" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -527,7 +326,26 @@
               <item name="archive" type="462c0819:PsiDirectoryNode" />
               <item name="samples" type="462c0819:PsiDirectoryNode" />
               <item name="welcome" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welcomepage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welcomepage" type="462c0819:PsiDirectoryNode" />
+              <item name="archive" type="462c0819:PsiDirectoryNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+              <item name="welcome" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welcomepage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welcomepage" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="welcomepage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="welcomepage" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="font-kit" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -545,15 +363,15 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Work\welcomepage" />
-      <recent name="D:\Work\welcomepage\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Work\welcomepage\archive\samples" />
       <recent name="D:\Work\welcomepage\Library\test" />
       <recent name="D:\Work\welcomepage\Library" />
       <recent name="D:\Work\welcomepage\turnjs\samples" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\welcomepage" />
+      <recent name="D:\Work\welcomepage\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -596,18 +414,32 @@
       <workItem from="1556848537305" duration="2772000" />
       <workItem from="1556866862823" duration="4327000" />
       <workItem from="1556875996550" duration="174000" />
-      <workItem from="1556876214945" duration="1644000" />
+      <workItem from="1556876214945" duration="1675000" />
+      <workItem from="1556933222836" duration="7155000" />
+      <workItem from="1556951129810" duration="599000" />
+      <workItem from="1557125115360" duration="29000" />
+      <workItem from="1557203522669" duration="1895000" />
+      <workItem from="1557282288375" duration="12736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150113000" />
+    <option name="totallyTimeSpent" value="172558000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15031983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -620,12 +452,12 @@
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32035595" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32035595" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32925472" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23027718" />
@@ -656,14 +488,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/turnjs/samples/magazine/pages/3.jpg" />
-    <entry file="file://$PROJECT_DIR$/turnjs/samples/magazine/pages/2-thumb.jpg" />
-    <entry file="file://$PROJECT_DIR$/turnjs/samples/magazine/pages/3-thumb.jpg" />
-    <entry file="file://$PROJECT_DIR$/turnjs/samples/double-page/index.html" />
-    <entry file="file://$PROJECT_DIR$/Library/welcome/js/docs.js" />
-    <entry file="file://$PROJECT_DIR$/Library/welcome/css/docs.css" />
-    <entry file="file://$PROJECT_DIR$/Library/welcome/index.html" />
-    <entry file="file://$PROJECT_DIR$/lib/turn.html4.js" />
     <entry file="file://$PROJECT_DIR$/../untitled/index.html" />
     <entry file="file://$PROJECT_DIR$/Library/test/index.html" />
     <entry file="file://$PROJECT_DIR$/Library/test/index.js" />
@@ -733,69 +557,152 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="51" column="49" selection-start-line="51" selection-start-column="49" selection-end-line="51" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archive/samples/docs/css/docs.css" />
     <entry file="file://$PROJECT_DIR$/archive/samples/intro/js/docs.js" />
     <entry file="file://$PROJECT_DIR$/archive/samples/intro/css/jquery.ui.css" />
     <entry file="file://$PROJECT_DIR$/archive/samples/intro/css/docs.css" />
-    <entry file="file://$PROJECT_DIR$/archive/samples/docs/index.html" />
-    <entry file="file://$PROJECT_DIR$/archive/samples/docs/js/docs.js" />
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/archive/samples/intro/js/intro.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        <state relative-caret-position="96">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/5396f77366f55-turnjs4/turnjs4/samples/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive/samples/welcome/pics/covers2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive/samples/docs/js/docs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive/samples/docs/css/docs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="73" column="18" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive/samples/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="40" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="23" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archive/samples/welcome/js/welcome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="1136">
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive/samples/Storage/steve-jobs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="205" column="33" selection-start-line="205" selection-start-column="33" selection-end-line="205" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archive/samples/welcome/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        <state relative-caret-position="546">
+          <caret line="25" column="72" selection-start-line="25" selection-start-column="72" selection-end-line="25" selection-end-column="72" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#3295#3301#0" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/archive/samples/intro/js/intro.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="784">
+          <caret line="60" column="68" selection-start-line="60" selection-start-column="68" selection-end-line="60" selection-end-column="68" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="198" column="5" selection-start-line="198" selection-start-column="5" selection-end-line="198" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Mr_Chalk/110/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24352">
+          <caret line="2" column="1286305" selection-start-line="2" selection-start-column="1286305" selection-end-line="2" selection-end-column="1286305" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive/samples/welcome/css/welcome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/font-kit/chalkfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <element signature="e#11#1560360#0" />
+            <element signature="e#47#1560338#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/font-kit/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/archive/samples/intro/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        <state relative-caret-position="547">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive/samples/intro/css/intro.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>

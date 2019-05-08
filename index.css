@@ -118,6 +118,8 @@ main {
     vertical-align: middle;
     background-size: cover;
     box-shadow: black 1px 5px 11px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 @media only screen and (max-device-width: 1880px) {
