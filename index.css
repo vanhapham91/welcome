@@ -122,9 +122,6 @@ main {
     border-bottom-right-radius: 15px;
 }
 
-@media only screen and (max-device-width: 1880px) {
-}
-
 @media only screen and (min-device-width: 1440px) and (max-device-width: 1600px) {
     .bookshelf {
         margin-left: 60px;

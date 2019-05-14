@@ -20,9 +20,9 @@
 <div id="canvas">
 	<div id="book-zoom">
 		<div class="sample-docs">
-			<!--<div ignore="1" class="tabs"><div class="left">  </div> <div class="right"> </div></div>-->
+			<div ignore="1" class="tabs"><div class="left">  </div> <div class="right"> </div></div>
             <div class="hard"></div>
-			<div class="double page1"  style="background-image: url('pages/page-1.jpg')">
+			<div class="double page1"  style="background-image: url('pages/1.png')">
 				<div class="content">
 					<div class="paragraph">
 						Thân gửi bạn,
@@ -41,6 +41,7 @@
 					</div>
 				</div>
             </div>
+            <div class="double"  style="background-image: url('pages/2.png')"></div>
 		</div>
 	</div>
 
@@ -254,7 +255,7 @@ function loadApp() {
 
 		}
 	}
-	}). turn('page', 2);
+	}). turn('page', 1);
 
 
 	$('#slider').slider('option', 'max', numberOfViews(flipbook));
