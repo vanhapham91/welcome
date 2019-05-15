@@ -14,7 +14,8 @@
 $.extend($.fn, {
 	scissor: function() {
 		this.each(function() {
-
+            console.log($(this).width());
+            console.log($(this));
 			var element = $(this),
 				pageProperties = {
 					width: element.width()/2,
@@ -37,8 +38,8 @@ $.extend($.fn, {
 					marginLeft: -pageProperties.width
 				}).appendTo(rightPage);
 
-		});
 
+        });
 		return this;
 	}
 });
