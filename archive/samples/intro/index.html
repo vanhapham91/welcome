@@ -13,20 +13,36 @@
 <script type="text/javascript" src="../../lib/hash.js"></script>
 <script type="text/javascript" src="../../lib/scissor.js"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sriracha" rel="stylesheet">
 </head>
 <body>
 
 <div id="canvas">
 	<div id="book-zoom">
 		<div class="sample-docs">
-			<div ignore="1" class="tabs"><div class="left">  </div> <div class="right"> </div></div>
-            <div class="hard"></d   iv>
             <div class="hard"></div>
-			<div class="double" style="background-image: url('pages/2.svg')"></div>
+			<div class="double page1"  style="background-image: url('pages/1.png')">
+				<div class="content">
+					<!--<div class="paragraph">-->
+						<!--Thân gửi bạn,-->
+					<!--</div>-->
+					<!--<div class="paragraph">-->
+						<!--Rất vui mừng chào đón bạn đến với ngôi nhà chung eEdu. Chúng tôi tự hào vì có bạn đứng trong hàng ngũ eEdu và tin tưởng rằng chúng ta sẽ cùng nhau viết lên lịch sử của eEdu, bạn nhé.-->
+					<!--</div>-->
+					<!--<div class="paragraph">-->
+						<!--Mục tiêu của chúng ta là tạo ra những dịch vụ sáng tạo, khác biệt dựa trên nhu cầu của thị trường và xu hướng công nghệ mới.-->
+					<!--</div>-->
+					<!--<div class="paragraph">-->
+						<!--Trang chào mừng của eEdu giúp bạn làm quen với những thông tin cần thiết, các nội quy, quy định cũng như các quyền lợi và trách nhiệm của bạn trong Công ty. Hy vọng nó sẽ là những nguồn thông tin cần thiết đối với bạn không chỉ trong những ngày đầu tiên mà sẽ còn là người bạn đồng hành hữu ích trong cả các giai đoạn sau này.-->
+					<!--</div>-->
+					<!--<div class="paragraph end">-->
+						<!--Chúc bạn thành công!-->
+					<!--</div>-->
+				</div>
             </div>
-            <div class="hard">
-            </div>
+            <div class="double"  style="background-image: url('pages/2.png')"></div>
+            <div class="double"  style="background-image: url('pages/3.png')"></div>
+            <div class="double"  style="background-image: url('pages/4.png')"></div>
 		</div>
 	</div>
 
@@ -240,7 +256,7 @@ function loadApp() {
 
 		}
 	}
-	}). turn('page', 2);
+	}). turn('page', 1);
 
 
 	$('#slider').slider('option', 'max', numberOfViews(flipbook));

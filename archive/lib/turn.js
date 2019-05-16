@@ -366,7 +366,6 @@ turnMethods = {
         }
       
       }
-
       $(this).css({marginLeft: left});
     }
 

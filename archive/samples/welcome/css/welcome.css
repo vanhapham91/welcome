@@ -3,7 +3,7 @@
 body{
 	margin:0;
 	padding:0;
-	overflow:hidden;
+	overflow:scroll;
 	font-family: 'Muli', cursive;
 }
 
@@ -48,14 +48,14 @@ body{
 }
 
 .sample-docs .hard{
-	background-image:url(../pics/covers.jpg);
+	background-image:url(../pics/covers2.jpg);
 }
 
-.sample-docs .p2{
-	background-position:-471px 0;
+.sample-docs .end{
+	background-position: -1500px 0;
 }
 
-.sample-docs .p28{
+.sample-docs .p10{
 	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
 	background-image:-webkit-linear-gradient(left, #fff 95%, #dadada 100%);
 	background-image:-moz-linear-gradient(left, #fff 95%, #dadada 100%);
