@@ -12,13 +12,11 @@
 'use strict';
 
 $.extend($.fn, {
-	scissor: function() {
+	scissor: function(bookWidth) {
 		this.each(function() {
-            console.log($(this).width());
-            console.log($(this));
 			var element = $(this),
 				pageProperties = {
-					width: element.width()/2,
+					width: bookWidth/2,
 					height: element.height(),
 					overflow: 'hidden'
 				},

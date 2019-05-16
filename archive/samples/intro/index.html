@@ -6,7 +6,8 @@
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
     <meta charset="UTF-8">
-    <script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
 <script type="text/javascript" src="../../extras/jquery-ui-1.8.20.custom.min.js"></script>
 <script type="text/javascript" src="../../extras/jquery.mousewheel.min.js"></script>
 <script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
@@ -23,21 +24,21 @@
             <div class="hard"></div>
 			<div class="double page1"  style="background-image: url('pages/1.png')">
 				<div class="content">
-					<!--<div class="paragraph">-->
-						<!--Thân gửi bạn,-->
-					<!--</div>-->
-					<!--<div class="paragraph">-->
-						<!--Rất vui mừng chào đón bạn đến với ngôi nhà chung eEdu. Chúng tôi tự hào vì có bạn đứng trong hàng ngũ eEdu và tin tưởng rằng chúng ta sẽ cùng nhau viết lên lịch sử của eEdu, bạn nhé.-->
-					<!--</div>-->
-					<!--<div class="paragraph">-->
-						<!--Mục tiêu của chúng ta là tạo ra những dịch vụ sáng tạo, khác biệt dựa trên nhu cầu của thị trường và xu hướng công nghệ mới.-->
-					<!--</div>-->
-					<!--<div class="paragraph">-->
-						<!--Trang chào mừng của eEdu giúp bạn làm quen với những thông tin cần thiết, các nội quy, quy định cũng như các quyền lợi và trách nhiệm của bạn trong Công ty. Hy vọng nó sẽ là những nguồn thông tin cần thiết đối với bạn không chỉ trong những ngày đầu tiên mà sẽ còn là người bạn đồng hành hữu ích trong cả các giai đoạn sau này.-->
-					<!--</div>-->
-					<!--<div class="paragraph end">-->
-						<!--Chúc bạn thành công!-->
-					<!--</div>-->
+					<div class="paragraph">
+						Thân gửi bạn,
+					</div>
+					<div class="paragraph">
+						Rất vui mừng chào đón bạn đến với ngôi nhà chung eEdu. Chúng tôi tự hào vì có bạn đứng trong hàng ngũ eEdu và tin tưởng rằng chúng ta sẽ cùng nhau viết lên lịch sử của eEdu, bạn nhé.
+					</div>
+					<div class="paragraph">
+						Mục tiêu của chúng ta là tạo ra những dịch vụ sáng tạo, khác biệt dựa trên nhu cầu của thị trường và xu hướng công nghệ mới.
+					</div>
+					<div class="paragraph">
+						Trang chào mừng của eEdu giúp bạn làm quen với những thông tin cần thiết, các nội quy, quy định cũng như các quyền lợi và trách nhiệm của bạn trong Công ty. Hy vọng nó sẽ là những nguồn thông tin cần thiết đối với bạn không chỉ trong những ngày đầu tiên mà sẽ còn là người bạn đồng hành hữu ích trong cả các giai đoạn sau này.
+					</div>
+					<div class="paragraph end">
+						Chúc bạn thành công!
+					</div>
 				</div>
             </div>
             <div class="double"  style="background-image: url('pages/2.png')"></div>
@@ -53,233 +54,235 @@
 
 
 <script type="text/javascript">
+	const BOOK_WIDTH = 1000;
 
-function loadApp() {
+	function loadApp() {
 
-	var flipbook = $('.sample-docs');
+		var flipbook = $('.sample-docs');
 
-	// Check if the CSS was already loaded
-	
-	if (flipbook.width()==0 || flipbook.height()==0) {
-		setTimeout(loadApp, 10);
-		return;
-	}
+		// Check if the CSS was already loaded
 
-    $('.sample-docs .double').scissor();
-
-	// Mousewheel
-
-	$('#book-zoom').mousewheel(function(event, delta, deltaX, deltaY) {
-
-		var data = $(this).data(),
-			step = 12,
-			flipbook = $('.sample-docs'),
-			actualPos = $('#slider').slider('value')*step;
-
-		if (typeof(data.scrollX)==='undefined') {
-			data.scrollX = actualPos;
-			data.scrollPage = flipbook.turn('page');
+		if (flipbook.width()==0 || flipbook.height()==0) {
+			setTimeout(loadApp, 10);
+			return;
 		}
 
-		data.scrollX = Math.min($( "#slider" ).slider('option', 'max')*step,
-			Math.max(0, data.scrollX + deltaX));
+		$('.sample-docs .double').scissor(BOOK_WIDTH);
 
-		var actualView = Math.round(data.scrollX/step),
-			page = Math.min(flipbook.turn('pages'), Math.max(1, actualView*2 - 2));
+		// Mousewheel
 
-		if ($.inArray(data.scrollPage, flipbook.turn('view', page))==-1) {
-			data.scrollPage = page;
-			flipbook.turn('page', page);
-		}
+		$('#book-zoom').mousewheel(function(event, delta, deltaX, deltaY) {
 
-		if (data.scrollTimer)
-			clearInterval(data.scrollTimer);
-		
-		data.scrollTimer = setTimeout(function(){
-			data.scrollX = undefined;
-			data.scrollPage = undefined;
-			data.scrollTimer = undefined;
-		}, 1000);
+			var data = $(this).data(),
+				step = 12,
+				flipbook = $('.sample-docs'),
+				actualPos = $('#slider').slider('value')*step;
 
-	});
+			if (typeof(data.scrollX)==='undefined') {
+				data.scrollX = actualPos;
+				data.scrollPage = flipbook.turn('page');
+			}
 
-	// Slider
+			data.scrollX = Math.min($( "#slider" ).slider('option', 'max')*step,
+				Math.max(0, data.scrollX + deltaX));
 
-	$( "#slider" ).slider({
-		min: 1,
-		max: 100,
+			var actualView = Math.round(data.scrollX/step),
+				page = Math.min(flipbook.turn('pages'), Math.max(1, actualView*2 - 2));
 
-		start: function(event, ui) {
-			if (!window._thumbPreview) {
-				_thumbPreview = $('<div />', {'class': 'thumbnail'}).html('<div></div>');
-			} else
+			if ($.inArray(data.scrollPage, flipbook.turn('view', page))==-1) {
+				data.scrollPage = page;
+				flipbook.turn('page', page);
+			}
 
-			moveBar(false);
-		},
+			if (data.scrollTimer)
+				clearInterval(data.scrollTimer);
 
-		stop: function() {
-			if (window._thumbPreview)
-				_thumbPreview.removeClass('show');
-			
-			$('.sample-docs').turn('page', Math.max(1, $(this).slider('value')*2 - 2));
-		}
-	});
+			data.scrollTimer = setTimeout(function(){
+				data.scrollX = undefined;
+				data.scrollPage = undefined;
+				data.scrollTimer = undefined;
+			}, 1000);
+
+		});
+
+		// Slider
+
+		$( "#slider" ).slider({
+			min: 1,
+			max: 100,
+
+			start: function(event, ui) {
+				if (!window._thumbPreview) {
+					_thumbPreview = $('<div />', {'class': 'thumbnail'}).html('<div></div>');
+				} else
+
+				moveBar(false);
+			},
+
+			stop: function() {
+				if (window._thumbPreview)
+					_thumbPreview.removeClass('show');
+
+				$('.sample-docs').turn('page', Math.max(1, $(this).slider('value')*2 - 2));
+			}
+		});
 
 
-	// URIs
-	
-	Hash.on('^page\/([0-9]*)$', {
-		yep: function(path, parts) {
-			var page = parts[1];
+		// URIs
 
-			if (page!==undefined) {
+		Hash.on('^page\/([0-9]*)$', {
+			yep: function(path, parts) {
+				var page = parts[1];
+
+				if (page!==undefined) {
+					if ($('.sample-docs').turn('is'))
+						$('.sample-docs').turn('page', page);
+				}
+
+			},
+			nop: function(path) {
+
 				if ($('.sample-docs').turn('is'))
-					$('.sample-docs').turn('page', page);
+					$('.sample-docs').turn('page', 1);
+			}
+		});
+
+		// Arrows
+
+		$(document).keydown(function(e){
+
+			var previous = 37, next = 39;
+
+			switch (e.keyCode) {
+				case previous:
+
+					$('.sample-docs').turn('previous');
+
+				break;
+				case next:
+
+					$('.sample-docs').turn('next');
+
+				break;
 			}
 
-		},
-		nop: function(path) {
+		});
 
-			if ($('.sample-docs').turn('is'))
-				$('.sample-docs').turn('page', 1);
-		}
-	});
+		// Create the flipbook
 
-	// Arrows
+		flipbook.turn({
+			height:700,
+			width: BOOK_WIDTH,
+			elevation: 50,
+			acceleration: false,
+			gradients: true,
+			autoCenter: true,
+			duration: 1000,
+			pages: 10,
+			when: {
 
-	$(document).keydown(function(e){
+				turning: function(e, page, view) {
 
-		var previous = 37, next = 39;
+					var book = $(this),
+					currentPage = book.turn('page'),
+					pages = book.turn('pages');
 
-		switch (e.keyCode) {
-			case previous:
+					if (currentPage>3 && currentPage<pages-3) {
+						if (page==0) {
+							book.turn('page', 2).turn('stop').turn('page', page);
+							e.preventDefault();
+							return;
+						} else if (page==pages) {
+							book.turn('page', pages-1).turn('stop').turn('page', page);
+							e.preventDefault();
+							return;
+						}
+					} else if (page>3 && page<pages-3) {
+						if (currentPage==1) {
+							book.turn('page', 2).turn('stop').turn('page', page);
+							e.preventDefault();
+							return;
+						} else if (currentPage==pages) {
+							book.turn('page', pages-1).turn('stop').turn('page', page);
+							e.preventDefault();
+							return;
+						}
+					}
 
-				$('.sample-docs').turn('previous');
+					Hash.go('page/'+page).update();
 
-			break;
-			case next:
-				
-				$('.sample-docs').turn('next');
+					if (page==1 || page==pages)
+						$('.sample-docs .tabs').hide();
 
-			break;
-		}
 
-	});
+				},
 
-	// Create the flipbook
+				turned: function(e, page, view) {
 
-	flipbook.turn({
-		height:700,
-		width: 1000,
-		elevation: 50,
-		acceleration: false,
-		gradients: true,
-		autoCenter: true,
-		duration: 1000,
-		pages: 10,
-		when: {
+					var book = $(this);
 
-		turning: function(e, page, view) {
-			
-			var book = $(this),
-			currentPage = book.turn('page'),
-			pages = book.turn('pages');
-				
-			if (currentPage>3 && currentPage<pages-3) {
-				if (page==0) {
-					book.turn('page', 2).turn('stop').turn('page', page);
-					e.preventDefault();
-					return;
-				} else if (page==pages) {
-					book.turn('page', pages-1).turn('stop').turn('page', page);
-					e.preventDefault();
-					return;
-				}
-			} else if (page>3 && page<pages-3) {
-				if (currentPage==1) {
-					book.turn('page', 2).turn('stop').turn('page', page);
-					e.preventDefault();
-					return;
-				} else if (currentPage==pages) {
-					book.turn('page', pages-1).turn('stop').turn('page', page);
-					e.preventDefault();
-					return;
+					$('#slider').slider('value', getViewNumber(book, page));
+
+					if (page!=1 && page!=book.turn('pages'))
+						$('.sample-docs .tabs').fadeIn(500);
+					else
+						$('.sample-docs .tabs').hide();
+
+					book.turn('center');
+					updateTabs();
+
+				},
+
+				start: function(e, pageObj) {
+
+					moveBar(true);
+
+				},
+
+				end: function(e, pageObj) {
+
+					var book = $(this);
+
+					setTimeout(function() {
+						$('#slider').slider('value', getViewNumber(book));
+					}, 1);
+
+					moveBar(false);
+
+				},
+
+				missing: function (e, pages) {
+
+					for (var i = 0; i < pages.length; i++)
+						addPage(pages[i], $(this));
+
 				}
 			}
+		}). turn('page', 1);
 
-			Hash.go('page/'+page).update();
 
-			if (page==1 || page==pages)
-				$('.sample-docs .tabs').hide();
-			
+		$('#slider').slider('option', 'max', numberOfViews(flipbook));
 
-		},
+		flipbook.addClass('animated');
 
-		turned: function(e, page, view) {
 
-			var book = $(this);
+		// Show canvas
 
-			$('#slider').slider('value', getViewNumber(book, page));
-
-			if (page!=1 && page!=book.turn('pages'))
-				$('.sample-docs .tabs').fadeIn(500);
-			else
-				$('.sample-docs .tabs').hide();
-
-			book.turn('center');
-			updateTabs();
-
-		},
-
-		start: function(e, pageObj) {
-	
-			moveBar(true);
-
-		},
-
-		end: function(e, pageObj) {
-		
-			var book = $(this);
-
-			setTimeout(function() {
-				$('#slider').slider('value', getViewNumber(book));
-			}, 1);
-
-			moveBar(false);
-
-		},
-
-		missing: function (e, pages) {
-
-			for (var i = 0; i < pages.length; i++)
-				addPage(pages[i], $(this));
-
-		}
+		$('#canvas').css({visibility: 'visible'});
 	}
-	}). turn('page', 1);
 
+	// Hide canvas
 
-	$('#slider').slider('option', 'max', numberOfViews(flipbook));
+	$('#canvas').css({visibility: 'hidden'});
 
-	flipbook.addClass('animated');
-
-
-	// Show canvas
-
-	$('#canvas').css({visibility: 'visible'});
-}
-
-// Hide canvas
-
-$('#canvas').css({visibility: 'hidden'});
-
-yepnope({
-	test: Modernizr.csstransforms,
-	yep: ['../../lib/turn.min.js', 'css/jquery.ui.css'],
-	nope: ['../../lib/turn.html4.min.js', 'css/jquery.ui.html4.css'],
-	both: ['css/intro.css', 'js/intro.js'],
-	complete: loadApp
-});
+	yepnope({
+		test: Modernizr.csstransforms,
+		// yep: ['../../lib/turn.min.js', 'css/jquery.ui.css'],
+		yep: ['../../lib/turn.js', 'css/jquery.ui.css'],
+		nope: ['../../lib/turn.html4.min.js', 'css/jquery.ui.html4.css'],
+		both: ['css/intro.css', 'js/intro.js'],
+		complete: loadApp
+	});
 
 </script>
 
